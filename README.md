@@ -24,12 +24,13 @@ Instead of creating a new thread for each connection, it iterates on each tuple 
 2. Open a terminal and navigate to the project directory.
 3. Launch the proxy server by running the following command:
     ```
-    python usocks5.py
+    python uproxy.py
     ```
     The proxy server will start listening on the standard port 1080.
 
 ## Usage
 
 Once the uSOCKS5 proxy server is running, you can configure your applications or tools to use it as a SOCKS5 proxy. Set the proxy server address to `localhost` and the port to `1080`.
+
 
 Please note that uSOCKS5 currently only supports TCP communications. UDP support may be added in future versions.
